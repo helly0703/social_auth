@@ -1,0 +1,73 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="br" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="Django" />
+            <item index="1" class="java.lang.String" itemvalue="asgiref" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W292" />
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="account.models.Substitution.*" />
+          <option value="account.models.LeaveRequest.*" />
+          <option value="account.models.Shifts.*" />
+          <option value="patients.models.Appointment.DoesNotExist" />
+          <option value="patients.models.Appointment.*" />
+          <option value="patients.models.Prescription.*" />
+          <option value="patients.models.Medication.*" />
+          <option value="account.models.User.*" />
+          <option value="patients.models.TimeSlots.*" />
+          <option value="account.models.Rooms.*" />
+          <option value="account.models.Address.*" />
+          <option value="django.db.models.fields.related.ForeignKey.email" />
+          <option value="patients.models.PatientProfile.objects" />
+          <option value="operation.models.Bed.*" />
+          <option value="operation.models.Operation.objects" />
+          <option value="patients.models.PatientProfile.DoesNotExist" />
+          <option value="operation.models.Operation.DoesNotExist" />
+          <option value="operation.models.Admission.objects" />
+          <option value="operation.models.Admission.DoesNotExist" />
+          <option value="operation.models.DoctorsVisit.objects" />
+          <option value="operation.models.NurseVisit.objects" />
+          <option value="billing.models.Bill.objects" />
+          <option value="billing.models.Bill.DoesNotExist" />
+          <option value="rest_framework.authtoken.models.Token.objects" />
+          <option value="account.*" />
+          <option value="operation.*" />
+          <option value="billing.*" />
+          <option value="patients.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
